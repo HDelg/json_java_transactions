@@ -9,7 +9,7 @@ Methods:
 **1. ADD TRANSACTION**  
   ./application <user_id> add <transaction_json>  
 Example to run from the command line:  
-java -jar <path_to_jar>/Transactions.jar 345 add "{ \"amount\": 1.23, \"description\": \"Joes Tacos\", \"date\":\"2018-12-30\", \"user_id\": 345 }"  
+java -jar <path_to_jar>/Transactions.jar 345 add "{ \\"amount\\": 1.23, \\"description\\": \\"Joes Tacos\\", \\"date\\":\\"2018-12-30\\", \\"user_id\\": 345 }"  
 
 **2) SHOW TRANSACTION**  
   ./application <user_id> <transaction_id>  
